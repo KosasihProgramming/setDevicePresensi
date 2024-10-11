@@ -60,6 +60,11 @@ const LocalStorage = () => {
       })
       .catch((error) => {
         console.log("Error:", error);
+        Swal.fire({
+          icon: "warning",
+          title: "Gagal",
+          text: "Data Gagal disimpan",
+        });
       });
   };
   const optionCabang = [
