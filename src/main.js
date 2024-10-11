@@ -83,7 +83,7 @@ const LocalStorage = () => {
   ];
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Konversi Kalimat dengan Base64</h1>
+      <h1>Set Access Device Presensi</h1>
       <textarea
         rows="4"
         cols="50"
